@@ -5,6 +5,12 @@
   text-decoration: underline;
   color: white;
 
+  transition: opacity 0.25s ease-in-out;
+
   padding: 0;
   margin: 12px 0 0;
+}
+
+.place__link:hover {
+  opacity: 0.8;
 }

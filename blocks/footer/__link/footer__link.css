@@ -5,6 +5,12 @@
     font-size: 16px;
     line-height: 18px;
 
+    transition: opacity 0.25s ease-in-out;
+
     margin: 0;
     padding: 0;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
 }
