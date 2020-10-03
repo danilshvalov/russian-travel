@@ -1,7 +1,6 @@
 .place__text {
     display: grid;
     row-gap: 24px;
-    width: 484px;
 
     order: 3;
 
