@@ -10,10 +10,17 @@
   margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .cover__title {
+    font-size: calc(32px + 40 * (100vw / 768));
+    line-height: calc(35px + 41 * (100vw / 768));
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__title {
     max-width: 288px;
-    
+
     font-size: 32px;
     line-height: 35px;
   }

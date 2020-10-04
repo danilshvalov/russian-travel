@@ -11,6 +11,12 @@
   padding: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    font-size: calc(8px - 6 * (100vw / 768));
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer__copyright {
     text-align: left;

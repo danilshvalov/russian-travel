@@ -10,6 +10,13 @@
   margin: 32px 0 0;
 }
 
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    font-size: calc(14px + 4 * (100vw / 768));
+    line-height: calc(16px + 6 * (100vw / 768));
+  }
+}
+
 
 @media screen and (max-width: 320px) {
   .cover__subtitle {
