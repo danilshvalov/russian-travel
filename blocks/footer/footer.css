@@ -1,7 +1,5 @@
 .footer {
-    width: 100%;
-
-    border: 1px solid red;
+    width: calc(100% - 6vw);
 
     margin: 92px auto 24px;
     padding: 0;
@@ -11,8 +9,16 @@
     flex-direction: row;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     .footer {
+        margin-top: 88px;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .footer {
+        margin-top: 64px;
         display: grid;
         grid-auto-flow: row;
         row-gap: 48px;

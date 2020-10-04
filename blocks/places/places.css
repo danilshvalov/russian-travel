@@ -1,16 +1,12 @@
 .places {
-    max-width: 984px;
+  max-width: 984px;
 
-    width: 100%;
-    box-sizing: border-box;
+  width: calc(100% - 8vw);
 
-    padding: 0 3%;
-    margin: 0 auto;
+  padding: 0;
+  margin: 0 auto;
 
-    display: grid;
-    gap: 80px;
+  display: grid;
+  gap: 80px;
 }
 
-@media screen and (max-width: 1024px) {
-    
-}
