@@ -10,3 +10,16 @@
   gap: 80px;
 }
 
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 720px;
+    gap: 72px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .places {
+    gap: 64px;
+  }
+}

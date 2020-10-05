@@ -10,6 +10,7 @@
 
 @media screen and (max-width: 640px) {
     .footer__links {
+        gap: 32px;
         grid-auto-flow: row;
     }
 }
