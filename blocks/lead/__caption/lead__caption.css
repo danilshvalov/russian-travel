@@ -5,9 +5,23 @@
     font-weight: 400;
     letter-spacing: 0.15em;
 
+    box-sizing: border-box;
+
     width: 100%;
 
     margin: 8px auto 0;
     padding: 0;
+}
+
+@media screen and (max-width: 950px) {
+    .lead__caption {
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .lead__caption {
+        padding-left: 16px;
+    }
 }
 
