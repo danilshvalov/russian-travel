@@ -7,8 +7,21 @@
   padding: 0;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1024px) {
   .intro {
-    width: calc(100% - 8vw);
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: calc(100% - 48px);
+  }
+}
+
+
+@media screen and (max-width: 640px) {
+  .intro {
+    width: calc(100% - 32px);
   }
 }

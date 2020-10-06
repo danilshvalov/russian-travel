@@ -2,7 +2,7 @@
     display: grid;
     margin: 0 auto;
     padding: 0;
-    width: calc(100% - 8vw);
+    width: calc(100% - 96px);
     gap: 16px;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -15,12 +15,14 @@
 
 @media screen and (max-width: 768px) {
     .photo-grid {
+        width: calc(100% - 48px);
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width: 500px) {
     .photo-grid {
+        width: calc(100% - 32px);
         grid-template-columns: 1fr;
     }
 }

@@ -24,3 +24,10 @@
   }
 }
 
+@media screen and (max-width: 640px) {
+  .place__title {
+    width: calc(100% - 32px);
+    margin: 0 auto;
+  }
+}
+
