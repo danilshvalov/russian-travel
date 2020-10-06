@@ -20,6 +20,6 @@
 
 @media screen and (max-width: 640px) {
   .places {
-    gap: 64px;
+    gap: 48px;
   }
 }

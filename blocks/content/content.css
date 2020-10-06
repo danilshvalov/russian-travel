@@ -13,3 +13,9 @@
         gap: 9vw;
     }
 }
+
+@media screen and (max-width: 640px) {
+    .content {
+        gap: 64px;
+    }
+}
